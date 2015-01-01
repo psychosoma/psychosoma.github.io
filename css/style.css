@@ -1,0 +1,78 @@
+body {
+
+    background-color: black;
+    padding-bottom: 60px;
+
+}
+
+.menu {
+
+    text-align: center;
+    margin-top: 12px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.menuSep {
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar {
+
+    height: 60px;
+    background-color: grey;
+
+    background:url('../img/menu.jpg') no-repeat center center;
+    background-size: 100%;
+    background-size:cover;
+
+}
+
+.navbar-inverse .navbar-link{
+    color: #fff;
+}
+
+.navbar-inverse .navbar-link:hover {
+    color: #fff;
+}
+
+img.adjusted {
+    z-index: -1;
+    width: 60%;
+    margin: auto;
+}
+
+img.imageContact{
+    height: 500px;
+    margin-top: 75px;
+}
+
+@media (max-width: 992px) {
+
+    .colImageContact {
+        text-align: center;
+    }
+
+}
+
+.textContact {
+
+    
+    padding-top:50px;
+}
+
+.description {
+
+    background-color: blue;
+    text-align: center;
+
+}
+
+.album {
+
+    background-color: red;
+
+}

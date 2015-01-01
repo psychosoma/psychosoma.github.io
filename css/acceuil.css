@@ -1,0 +1,27 @@
+html{
+
+    /* This image will be displayed fullscreen */
+    background:url('../img/acceuil.jpg') no-repeat center center;
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
+    /* The Magic */
+    background-size:cover;
+
+}
+
+body{
+
+    /* Workaround for some mobile browsers */
+    min-height:100%;
+    padding-bottom: 0px;
+
+}
+
+.navbar {
+
+    background:none;
+    background-color: black;
+
+}
