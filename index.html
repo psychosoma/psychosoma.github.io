@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Psychosoma">
+    <meta name="author" content="Cindy Alvarez">
+    <link rel="shortcut icon" href="../img/favicon.png">
+
+    <title>Psychosoma</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/style.css" rel="stylesheet">
+  </head>
+
+
+<!-- data-spy="scroll" data-target="#nav" -->
+
+  <body>
+
+	<div style="display: none" id="loading">
+		<img src="./img/loading.gif" alt="loading" />
+	</div>
+
+    <div class="container" id="nojs">
+    	
+    	<script type="text/javascript">
+    	/* window.onload=function(){ */
+			document.getElementById('nojs').style.display='none';
+			document.getElementById('loading').style.display='block';
+
+	 	/* } */
+	 	</script>
+
+      	<div class="row splash">
+      </div>
+
+    </div>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+            var myVar = setInterval(function () {myTimer()}, 3000);
+            function myTimer() {
+		        window.location.href = "./fr";
+            }
+		    $.ajax({ 
+		    url: "http://ajaxhttpheaders.appspot.com", 
+		    dataType: 'jsonp', 
+		    success: function(headers) {
+                clearInterval(myVar)
+		        language = headers['Accept-Language'];
+		        if(language[0].toLowerCase() == "f" && language[1].toLowerCase() == "r") window.location.href = "./fr";
+		        else if(language[0].toLowerCase() == "e" && language[1].toLowerCase() == "s") window.location.href = "./fr";
+		        else window.location.href = "./fr";
+		    }
+		});
+    </script>
+    </body>
+</html>

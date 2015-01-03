@@ -5,6 +5,13 @@ body {
 
 }
 
+#loading {
+	margin: auto;
+	width: 90px;
+	height: 55px;
+    margin-top: 150px;
+}
+
 .menu {
 
     text-align: center;
