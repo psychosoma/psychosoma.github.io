@@ -1,7 +1,7 @@
 html{
 
     /* This image will be displayed fullscreen */
-    background:url('../img/acceuil.jpg') no-repeat center center;
+    background:url('../img/acceuil2.jpg') no-repeat center center;
 
     /* Ensure the html element always takes up the full height of the browser window */
     min-height:100%;
@@ -16,12 +16,46 @@ body{
     /* Workaround for some mobile browsers */
     min-height:100%;
     padding-bottom: 0px;
+    font-family: pacificacondensedregular,fantasy;
 
 }
 
-.navbar {
+.title {
+	height: 175px;
+    color: #ababab;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
-    background:none;
-    background-color: black;
+.title0 {
+	
+	text-align: center;
+}
+
+.title1 {
+
+	font-size: 77px;
+	line-height: 0;
+}
+
+.title2 {
+
+	width: 284px;
+	margin: auto;
+
+}
+
+.title3 {
+
+	font-size: 30px;
+
+}
+
+.title4 img {
+
+	margin: 10px;
+	margin-top: 15px;
+	margin-left: 5px;
 
 }
