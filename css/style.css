@@ -21,13 +21,39 @@ body {
 	
 	border: none;
 	background: none;
-	min-height: 0;
+	min-height: 50px;
 	margin-bottom: 10px;
+	position: absolute;
+	width: 100%;
 	
+}
+
+@media (max-width: 767px) {
+
+.navbar-header {
+	
+	z-index: 100;
+	position: relative;
+
+}
+
+.collapse, .collapsing {
+
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+
+}
+
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #ababab;
+}
+
+.navbar-default .navbar-brand {
+	color: #ababab;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -74,6 +100,9 @@ body {
  * End Navbar 
  */
 
+/*
+ * Font 
+ */
 
 @font-face {
     font-family: 'pacificacondensedregular';
@@ -86,3 +115,7 @@ body {
     font-style: normal;
 
 }
+
+/*
+ * End Font 
+ */
