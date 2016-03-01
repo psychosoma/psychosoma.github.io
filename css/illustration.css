@@ -8,7 +8,7 @@ html{
 
     /* The Magic */
     background-size:cover;
-
+    
 }
 
 body{
@@ -20,43 +20,31 @@ body{
 
 }
 
-.title {
-	height: 175px;
-    color: #ababab;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+@media (max-width: 767px) {
+.navbar-nav {
+	padding-top: 35px;
+}
 }
 
-.title0 {
+.illustration {
+
+	margin-top: 50px;
+	background: none;
+	position: fixed;
 	
+	font-family: monospace;
 	text-align: center;
-}
-
-.title1 {
-
-	font-size: 77px;
-	line-height: 0;
-}
-
-.title2 {
-
-	width: 284px;
-	margin: auto;
+	color: #ababab;
 
 }
 
-.title3 {
+.galleria{ 
 
-	font-size: 30px;
-
-}
-
-.title4 img {
-
-	margin: 10px;
-	margin-top: 15px;
-	margin-left: 5px;
+	width: 700px;
+	height: 400px;
+	background: #000;
 	
+	margin-left: auto;
+	margin-right: auto;
 
 }
