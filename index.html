@@ -56,7 +56,7 @@
     <script type="text/javascript">
             var myVar = setInterval(function () {myTimer()}, 3000);
             function myTimer() {
-		        window.location.href = "./fr";
+		        window.location.href = "./en";
             }
 		    $.ajax({ 
 		    url: "http://ajaxhttpheaders.appspot.com", 
@@ -65,8 +65,8 @@
                 clearInterval(myVar)
 		        language = headers['Accept-Language'];
 		        if(language[0].toLowerCase() == "f" && language[1].toLowerCase() == "r") window.location.href = "./fr";
-		        else if(language[0].toLowerCase() == "e" && language[1].toLowerCase() == "s") window.location.href = "./fr";
-		        else window.location.href = "./fr";
+		        else if(language[0].toLowerCase() == "e" && language[1].toLowerCase() == "s") window.location.href = "./es";
+		        else window.location.href = "./en";
 		    }
 		});
     </script>
