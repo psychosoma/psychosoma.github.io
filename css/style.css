@@ -1,21 +1,54 @@
 html {	    
     background-color: black;
+
 }
 
 body {
 
     background-color: black;
-    padding-bottom: 60px;
+    height: 100%;
 
 }
 
 #loading {
-	margin: auto;
-	width: 90px;
-	height: 55px;
-    margin-top: 150px;
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    width:48px;
+    height:48px;
+    margin-top: -24px; /*set to a negative number 1/2 of your height*/
+    margin-left: -24px; /*set to a negative number 1/2 of your width*/
 }
 
+#nojs {
+	height: 100%;
+}
+
+.language {
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    width:200px;
+    height:120px;
+    margin-top: -60px; /*set to a negative number 1/2 of your height*/
+    margin-left: -100px; /*set to a negative number 1/2 of your width*/
+    text-align: center;
+}
+
+.bar {
+	width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.language a img {
+
+	margin: 10px;
+	margin-top: 0px;
+	margin-left: 5px;
+	
+
+}
 
 /*
  * Navbar 
