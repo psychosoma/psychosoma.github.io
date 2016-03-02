@@ -45,6 +45,17 @@ body{
 	height: 90%;
 }
 
+.picture {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.avatar {
+	float: left;
+	margin-right: 20px;
+}
+
 .quote {
 	width: 60%;
 	margin-left: auto;
@@ -78,9 +89,19 @@ body{
 	
 }
 
+.picture {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+.picture {
+	width: 75%;
+}
 
 .quote {
 	width: 75%;
