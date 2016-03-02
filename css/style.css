@@ -29,14 +29,15 @@ body {
     top: 50%;
     left: 50%;
     width:200px;
-    height:120px;
-    margin-top: -60px; /*set to a negative number 1/2 of your height*/
+    height:150px;
+    margin-top: -75px; /*set to a negative number 1/2 of your height*/
     margin-left: -100px; /*set to a negative number 1/2 of your width*/
     text-align: center;
+    line-height: 0px;
 }
 
 .bar {
-	width: 170px;
+	width: 180px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -44,10 +45,9 @@ body {
 .language a img {
 
 	margin: 10px;
-	margin-top: 0px;
-	margin-left: 5px;
-	
-
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /*
