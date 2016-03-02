@@ -60,3 +60,31 @@ body{
 	
 
 }
+
+@media (max-width: 767px) {
+
+.title1 {
+	font-size: 55px;
+	line-height: 0;
+}
+
+.title2 {
+	width: 200px;
+	margin: auto;
+
+}
+
+.title3 {
+	font-size: 20px;
+}
+
+.title4 img {
+
+	margin: 5px;
+	margin-top: 15px;
+	margin-left: 5px;
+	
+
+}
+
+}
