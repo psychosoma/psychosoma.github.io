@@ -20,17 +20,17 @@ body{
 
 }
 
-a {
+.apropos a {
     color: #ababab;
     text-decoration: underline;
 }
 
-a:hover, a:focus {
+.apropos a:hover, .apropos a:focus {
     color: #ababab;
     text-decoration: underline;
 }
 
-a:active, a:hover {
+ .apropos a:active, .apropos a:hover {
     outline: 0 none;
 }
 
