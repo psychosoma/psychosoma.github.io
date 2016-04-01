@@ -20,6 +20,20 @@ body{
 
 }
 
+a {
+    color: #ababab;
+    text-decoration: underline;
+}
+
+a:hover, a:focus {
+    color: #ababab;
+    text-decoration: underline;
+}
+
+a:active, a:hover {
+    outline: 0 none;
+}
+
 @media (max-width: 767px) {
 .navbar-nav {
 	padding-top: 35px;
